@@ -1,7 +1,6 @@
-%define BASE           0x7C00
+%include "src/defines.asm"
 
-%define ENDL           0x0D, 0x0A
-
+org BASE
 bits 16
 
 start:
